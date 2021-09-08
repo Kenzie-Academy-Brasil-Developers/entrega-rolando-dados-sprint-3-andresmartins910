@@ -1,0 +1,39 @@
+/* Mobile First */
+
+body {
+    background-color: rgb(22, 22, 22);
+    color: rgb(19, 230, 0);
+    font-family: monospace;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: 1px dotted rgba(19, 230, 0, 0.733);
+}
+
+main {
+    text-align: center;
+    width: 75%;
+    height: 500px;
+    margin: 0px auto;
+}
+
+main h2 {
+    margin-top: 40px;
+    font-size: 1.5rem;
+}
+
+#graphContainer {
+    color: rgb(22, 22, 22);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+div {
+    padding: 10px 5px;
+    margin-right: 2px;
+}
